@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "message": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri" }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["success"]
+    }
+  },
+  "required": ["message", "status"]
+}
